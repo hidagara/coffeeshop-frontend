@@ -60,15 +60,17 @@
   </div>
 </div>
 </nav>
+<SideMenu/>
   </div>
 </template>
 
 <script>
-
+import SideMenu from './components/SideMenu.vue'
 
 export default {
   name: 'app',
   components: {
+    SideMenu
   }
 }
 
